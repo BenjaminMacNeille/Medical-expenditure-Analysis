@@ -9,4 +9,6 @@ My general hypothesis entering this project was that mood disorders are likely u
 
 The primary research question became: Which medical events are both costly and severe for respondents with mood disorders? I filtered event types to those designated with the mood disorder classification and combined each component's expenditures along with population characteristics. I used a GLM and found that inpatient visits, while relatively rare for those with mood disorders, were a major source of expenditures.
 
-Inpatient events are also considered very severe, so predicting the types of care that may prevent inpatient events are a source of interest to researchers. The current goal of this project is to identify the features that indicate whether a respondent will have an inpatient event. 
+Inpatient events are also considered very severe, so predicting the types of care that may prevent inpatient events are a source of interest to researchers. The current goal of this project is to identify the features that indicate whether a respondent will have an inpatient event.
+
+Within this repository is source code in the form of a Jupyter Notebook (/src), literature review and data understanding (/notes), and a presentation of preliminary findings.
