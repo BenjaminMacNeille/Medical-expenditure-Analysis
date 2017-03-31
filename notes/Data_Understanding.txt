@@ -1,0 +1,43 @@
+-consolidated MEPS Household Component files contain information on health care expenditures, demographics, socio-economic characteristics, insurance information, employment information, health status, and satisfaction with health care.
+
+Patient demographics: 
+age, 
+race, 
+body mass index (underweight, normal, overweight, obese), 
+physical activity (spending a half hour or more in moderate to vigorous physical activity as least five times per week), 
+perceived health status (poor, fair, good, very good, and excellent), 
+insurance status (uninsured, public only, and any private)
+diabetes (yes/no)
+current smoking status (yes/no)
+poverty status (poor/negative, near poor, low income, middle income, high income)
+--based on the federal poverty level: negative or poor (<100%), near poor(100-125%), low income (125-200%), middle income(200-400%), high income (>400%)
+region (Northeast, Midwest, South, and West)
+
+Outcomes of interest:
+total expenditures (direct payments, out-of-pocket payments, and insurance payments)
+
+inpatient expenditures
+--included all expenses for direct hospital care (room, board, diagnostic and laboratory work, and imaging); provider services were not included in hospital bills (e.g., anesthesiologists, radiolo- gists, and other specialists)
+
+outpatient expenditures
+--included all provider visits (physician and non-physician) in the ambulatory setting
+
+readmittance
+
+- the data were limited by the specificity of the ICD-9-CM codes, which were restricted to the first three digits. Therefore, stratification by small, large, and non-specified intestinal Crohn’s disease was not possible. Different severities of Crohn’s disease require different treatment strategies. For instance, a patient with moderate-to-severe Crohn’s disease may be prescribed a costly biologic or immuno- suppressant, whereas, a patient with mild-to- moderate disease may receive corticosteroids and sulfasalazine. As such, determination the health care expenditures for different severity levels of Crohn’s disease was not possible...
+
+...The study used patient-reported prescription drug expenditures, which were not mapped to the actual prescription drug files. Future analysis will incorporate the MEPS prescription file to correlate the actual number of biologics, immunomodulators, ste- roids, and other prescription drugs related to Crohn’s disease along with prescription drug expenditures. The introduction of adalimumab and certolizumab pegol in 2008 may have resulted in rising utilization as the demand for convenient administration of biologics increased, resulting in an increase in prescription expenditures over time (Bounthavong et al.).
+
+**All expenditures must be adjusted for inflation using the Consumer Price Index to reflects costs in 201* $US.
+
+Create generalizable expenditure rates to the entire US:
+
+Machlin S, Yu W, Zodet M. Computing Standard Er- rors for MEPS Estimates [Internet]; 2005 Jan. [cited 2016 Jan 21]. Available from: http://meps.ahrq.gov/ survey_comp/standard_errors.jsp.
+
+Calculate Charleston Comorbidity:
+
+Quan, H., Li, B., Couris, C. M., Fushimi, K., Graham, P., Hider, P., … Sundararajan, V. (2011). Updating and validating the charlson comorbidity index and score for risk adjustment in hospital discharge abstracts using data from 6 countries. American Journal of Epidemiology, 173(6), 676–682. http://doi.org/10.1093/aje/kwq433
+
+Anderson-Newman conceptual model of social determinants of health care determination to select covariates:
+
+Andersen R,NewmanJF. Societal and individual de- terminants of medical care utilization in the United States. Milbank Q 2005 Dec;83. http://dx.doi.org/ 10.1111/j.1468-0009.2005.00428.x

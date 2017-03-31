@@ -1,0 +1,58 @@
+Bhattacharya et al.:
+
+Crohn's overview: 26 to 201 cases per 100,000; 14.6 cases per 100,000 person-years
+
+-medical intervention is the primary treatment option for most patiends with Crosh's disease
+
+-invasive surgery where resection of the colon is common
+
+-economic burden estimated to be between $2.0 - $18.2 billion per year (11,898-23,014 per patient, adjusted to 2015) not using MEPS (4-7)
+
+-Using MEPS data from 1996-2009, annual cost was $10,354 per patient with Crohn's disease, and $2.5 billion per year (8)
+
+-a large proportion of health care expenditures for Crohn’s disease were historically due to inpatient expenses (e.g., surgi- cal resection of colon). In a report by Gibson (6), gastrointestinal surgery was associated with a large proportion of the costs compared to patients without surgery ($60,147 versus $15,698, P < 0.01) despite only occurring in 7.4% of the Crohn’s disease population.
+
+-recent shift from inpatient setting to the prescription setting due to the improvements associated with the introduction of biologics (3)
+
+-The introduction of infliximab in 1999 as the first tumor necrosis factor-alpha inhibitor for Crohn’s disease, pro- vided rapid and long term remission delaying or preventing surgical interventions. 
+
+-However, inflix- imab is delivered by infusion, which may have limited uptake of infliximab treatment as a standard of practice. In
+
+-In 2008, FDA approved two self-injectable biologics (adalimumab and certolizumab pegol) for treatment of moderate to severe Crohn's disease
+
+-In 2012 FDA approved vedolizumab for a similar indication
+
+-Only subjects with full data were incorporated into the model
+
+-two-part generalized linear model:
+--logit model to estimate the likelihood of having nonzero health care expenditures
+--GLM with power-link and gamma distribution to estimate association between Crohn's and various health care expenditures
+
+-95% confidence intervls from 1000 bootstrapped samples using method of recycled predictions
+
+-Model specification was assessed with Pearson correlations between residuals andpredicted expenditures and Hosmer-Lemeshow goodness-of-fit tests
+
+-Annual mean health care expenditures pre-post FDA approvals of new biologics and the American College of Gastroenterology Crohn’s disease treatment guidelines were compared using difference-in-differences estimation based on linear regression using strategy from: Van der Valk ME,Mangen M-JJ, Leenders M, et al. Healthcare costs of inflammatory bowel disease have shifted from hospitalisation and surgery towards anti-TNFa therapy: results from the COIN study. Gut 2014;63:72–79
+--showed that respondents with a diagnosis of Crohn's disease had a higher increase in total expenditures from baseline compared to those without
+
+1. Park, M. D., Bhattacharya, J., & Park, K. (2014). Differences in healthcare expenditures for inflammatory bowel disease by insurance status, income, and clinical care setting. PeerJ, 2, e587. http://doi.org/10.7717/peerj.587
+
+2. Bounthavong, M., Li, M., & Watanabe, J. H. (2016). An evaluation of health care expenditures in Crohn’s disease using the United States Medical Expenditure Panel Survey from 2003 to 2013. Res Social Adm Pharm. http://doi.org/10.1016/j.sapharm.2016.05.042
+
+3. Park KT, Bass D. Inflammatory bowel disease- attributable costs and cost-effective strategies in the United States: a review. Inflamm Bowel Dis 2011;17: 1603–1609.
+
+Older articles estimating Crohn's expenditures without MEPS (4-7):
+
+4. Hay JW, Hay AR. Inflammatory bowel disease: costs-of-illness. J Clin Gastroenterol 1992;14:309– 317.
+
+5. Feagan BG, Vreeland MG, Larson LR, Bala MV. Annual cost of care for Crohn’s disease: a payor perspective. Am J Gastroenterol 2000;95:1955–1960.
+
+6. Gibson TB, Ng E, Ozminkowski RJ, et al. The direct and indirect cost burden of Crohn’s disease and ulcerative colitis. J Occup Environ Med 2008;50: 1261–1272.
+
+7. Yu AP, Cabanilla LA, Wu EQ, Mulani PM, Chao J. The costs of Crohn’s disease in the United States and other Western countries: a systematic review. Curr Med
+
+8. Gunnarsson C, Chen J, Rizzo JA, Ladapo JA, Lofland JH. Direct health care insurer and out-of- pocket expenditures of inflammatory bowel disease:
+Bounthavong et al. / Research in Social and Administrative Pharmacy j (2016) 1–9 9
+evidence from a US national survey. Dig Dis Sci 2012;57:3080–3091.
+
+
